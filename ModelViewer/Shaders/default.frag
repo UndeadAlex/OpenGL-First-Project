@@ -54,7 +54,7 @@ vec4 pointLight()
     return (texture(diffuse0, texCoord) * (diffuse * inten + ambient) + texture(specular0, texCoord).r * specular * inten) * lightColor;
 }
 
-vec4 direcLight()
+vec4 directLight()
 {
     // ambient lighting
     float ambient = 0.20f;
@@ -121,5 +121,6 @@ void main()
     // outputs final color
     float depth = logisticDepth(gl_FragCoord.z, 0.5f, 5.0f);
     //  * (1.0f - depth) + vec4(depth * vec3(0.85f, 0.85f, 0.90f), 1.0f);
-    FragColor = texture(diffuse0, texCoord);
+    //FragColor = texture(diffuse0, texCoord);
+    FragColor = directLight();
 }

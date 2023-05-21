@@ -85,13 +85,13 @@ int main()
 
 	Camera camera(SCREEN_WIDTH, SCREEN_HEIGHT, glm::vec3(0.0f, 0.0f, 0.0f));
 
-	Model mapModel("Assets/map/scene.gltf");
-	Model grindModel("Assets/grindstone/scene.gltf");
-	// model.SetRotation(glm::vec3(0.0f, 0.0f, -90.0f));
-	mapModel.SetScale(0.1f);
-	grindModel.SetPosition(glm::vec3(0.005f, 0.0f, 0.01f));
-	grindModel.SetRotation(glm::vec3(0.0f, 0.0f, glm::radians(-90.0f)));
-	grindModel.SetScale(0.01f);
+	Model mapModel("Assets/bunny/scene.gltf");
+	//Model grindModel("Assets/grindstone/scene.gltf");
+	// model.SetRotation(glm::vec3(0.0f, 0.0f, -90.0f)); 
+	//mapModel.SetScale(1f);
+	//grindModel.SetPosition(glm::vec3(0.005f, 0.0f, 0.01f));
+	//grindModel.SetRotation(glm::vec3(0.0f, 0.0f, glm::radians(-90.0f)));
+	//grindModel.SetScale(0.01f);
 
 	double prevFrameTime = 0.0;
 	double crntFrameTime = 0.0;
@@ -142,7 +142,7 @@ int main()
 		camera.updateMatrix(45.0f, 0.1f, 100.0f);
 		
 		mapModel.Draw(shaderProgram, camera);
-		grindModel.Draw(shaderProgram, camera);
+		//grindModel.Draw(shaderProgram, camera);
 
 
 		ImGui::Render();
