@@ -14,5 +14,14 @@ My goals for this are to develop it into a more generalist model viewing program
 
 ## Screenshots
 
-<img src="GitScreenshots/Screenshot01.png" width=45%/>
-<img src="GitScreenshots/Screenshot02.png" width=45%/>
+<img align="left" src="GitScreenshots/Screenshot01.png" width=45%/>
+<img align="center" src="GitScreenshots/Screenshot02.png" width=45%/>
+
+## Reflection
+**I've been told to reflect more.**
+
+Damn ok i know you have probably read alot of "i learnt alot from this" but seriously i think this has been the most i've learnt from something and actually sparked me to learn more GLSL and OpenGL, i hope to one day make an engine myself where i can build anything i want inside it.
+
+im not sure whatelse to state here except damn i've got respect for engine programmers.
+
+-Alex <3
