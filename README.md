@@ -1,4 +1,4 @@
-# OpenGL ModelViewer
+# OpenGL First Project
 
 ## Description
 
